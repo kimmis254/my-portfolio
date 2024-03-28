@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wayne Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d3f838b26c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images" class="logo" alt="" width="100" height="100">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="contact#">Contact</a></li>
+        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Mobile App Developer </p>
+      <h1>Hi,I'm <span>Wayne Kathanzu</span><br> from Nairobi, Kenya.</h1>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="subtitle"> About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam architecto beatae eos est, nemo repellat tenetur? Aspernatur aut ea
+          laudantium mollitia numquam placeat quis quo quos suscipit unde, vel.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+<p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+<p class="tab-links" onclick="opentab('education', event)">Education</p>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Android</span><br>Creating Android applications</li>
+            <li><span>Web Development</span><br>Creating Web Apps</li>
+            <li><span>Backend Development</span><br>Integrating django into web applications</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2024-Current</span><br>Internship at Safaricom PLC</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023</span><br>MIT software engineering at eMobilis Institute of Technology</li>
+            <li><span>2022-Current</span><br>Bsc.Computer Science at University of Nairobi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="services">
+  <div class="container">
+    <h1 class="subtitle">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam architecto, soluta laudantium impedit perferendis ut doloribus dolores eius dolor odio. Unde aliquam
+           ab rerum impedit asperiores. Reprehenderit aliquid doloremque quidem.</p>
+            <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-android"></i>
+        <h2>Android Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam architecto, soluta laudantium impedit perferendis ut doloribus dolores eius dolor odio. Unde aliquam
+           ab rerum impedit asperiores. Reprehenderit aliquid doloremque quidem.</p>
+            <a href="#">Learn More</a>
+      </div><div>
+        <i class="fa-solid fa-server"></i>
+        <h2>Backend Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam architecto, soluta laudantium impedit perferendis ut doloribus dolores eius dolor odio. Unde aliquam
+           ab rerum impedit asperiores. Reprehenderit aliquid doloremque quidem.</p>
+            <a href="#">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png" alt="">
+        <div class="layer">
+          <h3>School News App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Hic nulla esse quasi asperiores ut corrupti debitis, facere ipsam, obcaecati cumque voluptatibus dicta reiciendis quibusdam molestias quaerat tenetur cum illo fuga?</p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png" alt="">
+        <div class="layer">
+          <h3>E-commerce App </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Hic nulla esse quasi asperiores ut corrupti debitis, facere ipsam, obcaecati cumque voluptatibus dicta reiciendis quibusdam molestias quaerat tenetur cum illo fuga?</p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" alt="">
+        <div class="layer">
+          <h3>Chat App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Hic nulla esse quasi asperiores ut corrupti debitis, facere ipsam, obcaecati cumque voluptatibus dicta reiciendis quibusdam molestias quaerat tenetur cum illo fuga?</p>
+             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+        <p><i class="fa-solid fa-phone"></i>+254 721 123 456</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="images/WAYNE KATHANZU RESUME.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn3">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> Copyright <i class="fa-regular fa-copyright"></i> Wayne. Made by Wayne Kathanzu </p>
+  </div>
+</div>
+
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname, event) {
+  for (tablink of tablinks) {
+    tablink.classList.remove("active-link");
+  }
+
+  for (tabcontent of tabcontents) {
+    tabcontent.classList.remove("active-tab");
+  }
+
+  document.getElementById(tabname).classList.add("active-tab");
+  event.currentTarget.classList.add("active-link");
+}
+</script>
+
+<script>
+
+
+var sidemeu = document.getElementById("sidemenu");
+
+function openmenu() {
+  sidemeu.style.right = "0";
+}
+function closemenu() {
+  sidemeu.style.right = "-200px";
+}
+
+
+
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby59vs0brc7aZss5s3Ztmt5jMdHT8Pq9Vwt2GtTwIGHuiYdOxGfgEsAazs0lY-qd8nx/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
